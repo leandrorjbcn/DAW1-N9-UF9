@@ -1,0 +1,114 @@
+/*
+
+						ÍNDEX
+
+VARIABLES 
+RESET
+
+TEXT ALIGN
+DISPLAY
+FLEXBOX
+LIST STYLE TYPE
+MARGIN
+WIDTH
+
+
+Regles de padronització del noms.
+
+1 - propietat:valor; 	
+	p-valor
+
+inicial de cada paraula de la propietat - valor (inicial de cada paraula, exceptuant la última que s'escriu per complet).
+Exemples:
+		display:flex;						es transforma en 		d-flex
+		flex-direction: space-between;		es transforma en 		fd-sbetween
+		order:1;							es transforma en        o-1
+
+
+2 - propietat:var(variable);
+
+Variable:
+Composen el nom de la variable: nom de la propietat - nom de la etiqueta
+nom de la propietat - nom de la etiqueta: valor;
+Exemple     
+    --propietat-etiqueta: valor;
+
+Crida a la variable:
+propietat: var(--nom_variable);
+Exemple
+    color: var(--propietat-etiqueta);
+
+*/
+
+
+/* VARIABLES */
+:root{
+	--color-header-top:#24e8ff;
+	--color-btn-i:#fa5c59;
+}
+
+/* RESET */
+*{
+	/* margin: 0;
+	padding: 0;
+	box-sizing: border-box; */
+}
+
+html{
+	font-size: 16px;    
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* TEXT ALIGN */
+.ta-center{
+    text-align: center;
+}
+
+/* DISPLAY */
+.d-flex{
+    display: flex;
+}
+
+/* FLEXBOX */
+.jc-sbetween{
+    justify-content: space-between;
+}
+
+.ac-sbetween{
+    align-content: space-between;
+}
+
+/* LIST STYLE TYPE  */
+.lst-none{
+    list-style-type: none;
+}
+
+/* MARGIN */
+.mr-5{
+    margin-right: 5rem;
+}
+
+/* WIDTH */
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-40{
+    width: 40%;
+}
+

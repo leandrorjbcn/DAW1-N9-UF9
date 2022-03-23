@@ -1,7 +1,19 @@
+
+
 .box{
     padding: 1rem 0.5rem;
     width: 8vw;
     background-color: rgb(204, 230, 247);
     border: solid 1px rgb(81, 169, 241);
     text-align: center;
+}
+
+/* HEADER */
+
+/* Main Menu */
+
+
+/* MAIN */
+.main{
+    padding: 5rem 0;
 }
